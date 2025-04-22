@@ -1,0 +1,5 @@
+2025-04-22 16:33:36.306 [info] Log level: Info
+2025-04-22 16:33:37.144 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-04-22 16:33:37.144 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-04-22 16:33:44.533 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for darionewton7/fluxo-de-caixa: Error: No GitHub authentication session available.
+2025-04-22 16:36:49.886 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.

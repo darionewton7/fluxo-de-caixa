@@ -1,0 +1,65 @@
+Instruções
+
+Você é um especialista em arquitetura de soluções de infraestrutura e deverá atuar como um Arquiteto de Soluções para desenvolver e documentar uma solução híbrida (on-premises e cloud) para a empresa XPTO, que está passando por uma transformação digital. A solução deverá atender a uma série de critérios técnicos obrigatórios e diferenciais, documentando e justificando todas as decisões tomadas. Para isso, siga rigorosamente as orientações e organize sua resposta conforme as subseções <cenario_empresa></cenario_empresa>, <requisitos_obrigatorios></requisitos_obrigatorios>, <requisitos_diferenciais></requisitos_diferenciais>, <abordagem_tecnica></abordagem_tecnica> e <entregaveis></entregaveis>.
+
+<cenario_empresa>
+A empresa XPTO possui uma infraestrutura majoritariamente on-premises, com dois serviços de fluxo de caixa rodando em máquinas virtuais:
+- Serviço de controle de lançamentos
+- Serviço de consolidação diária
+
+O objetivo é migrar essa arquitetura para um modelo híbrido que seja mais escalável, seguro e resiliente, com uso inteligente da nuvem e aproveitamento dos investimentos on-premises.
+
+Requisitos gerais da solução:
+- Alta disponibilidade e escalabilidade para suportar picos de acesso
+- Segurança e controle de acesso rigoroso com protocolos robustos
+- Otimização de custos com práticas FinOps
+- Resiliência e planos de recuperação (DR)
+- Governança e automação com ferramentas de Infraestrutura como Código (IaC)
+
+</cenario_empresa>
+
+<requisitos_obrigatorios>
+Você deve obrigatoriamente incluir e descrever:
+
+1. **Dimensionamento de Recursos**: Apresente estimativas claras de CPU, memória e estratégias de escalabilidade vertical e horizontal.
+2. **FinOps**: Estratégias para controle de custos durante o provisionamento e operação, com foco em eficiência financeira.
+3. **Diagrama de Topologia**: Desenho que ilustra toda a solução, incluindo integração entre ambientes, redes, serviços e camadas.
+4. **Justificativas Técnicas**: Explique as razões para a escolha de cada tecnologia e abordagem adotada.
+5. **Automação com IaC**: Demonstre como utilizará ferramentas como Terraform ou Ansible na infraestrutura.
+6. **Repositório Público**: Hospede toda a solução (código, diagramas, documentação) em um repositório GitHub.
+7. **Documentação em Markdown**: Toda a documentação deve ser entregue em arquivos `.md` dentro do repositório.
+
+</requisitos_obrigatorios>
+
+<requisitos_diferenciais>
+Se possível, inclua também:
+
+- **Plano de Disaster Recovery (DR)**: Defina metas de RTO (Recovery Time Objective) e RPO (Recovery Point Objective) e estratégias para mitigar falhas.
+- **Monitoramento e Observabilidade**: Proposta de monitoramento de redes e serviços.
+- **Modelo OSI**: Aplicação do modelo OSI para otimização de tráfego e segurança da rede.
+</requisitos_diferenciais>
+
+<abordagem_tecnica>
+Inclua na sua entrega:
+
+- Estratégia de dimensionamento para variações de demanda.
+- Fluxo detalhado de tráfego de rede entre componentes.
+- Justificativa para protocolos administrativos e de monitoramento (ex.: SSH, HTTPS).
+- Estratégia de integração entre ambientes on-premises e cloud (vantagens e desafios).
+- Aplicações de Kubernetes e serverless na solução (onde e quando usar).
+- Diagrama arquitetural incluindo redes, bancos de dados, balanceadores de carga e aplicações.
+- Estratégia FinOps com automação e monitoramento de custos.
+- Detalhamento do plano de DR com RTO e RPO.
+- Aplicação prática do modelo OSI para diagnósticos e soluções de rede.
+- Exemplos de código para provisionamento com Terraform ou Ansible.
+</abordagem_tecnica>
+
+<entregaveis>
+- Repositório GitHub com toda a documentação em Markdown
+- Diagramas técnicos em formatos visuais apropriados
+- Código de infraestrutura (Terraform/Ansible)
+- Justificativas e explicações técnicas bem detalhadas
+- Plano de DR (opcional, mas recomendável)
+- Propostas de evolução futura do sistema (opcional)
+
+</entregaveis>

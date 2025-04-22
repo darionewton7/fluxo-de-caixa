@@ -1,0 +1,83 @@
+2025-04-22 16:39:22.511 [info] [main] Log level: Info
+2025-04-22 16:39:22.512 [info] [main] Validating found git in: "git"
+2025-04-22 16:39:22.512 [info] [main] Using git "2.34.1" from "git"
+2025-04-22 16:39:22.512 [info] [Model][doInitialScan] Initial repository scan started
+2025-04-22 16:39:22.512 [info] > git rev-parse --show-toplevel [13ms]
+2025-04-22 16:39:22.512 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2025-04-22 16:39:22.512 [info] [Model][openRepository] Opened repository: /home/ubuntu
+2025-04-22 16:39:22.512 [info] > git config --get commit.template [9ms]
+2025-04-22 16:39:22.512 [info] > git rev-parse --show-toplevel [28ms]
+2025-04-22 16:39:22.513 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [21ms]
+2025-04-22 16:39:22.513 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [13ms]
+2025-04-22 16:39:22.513 [info] > git rev-parse --git-dir --git-common-dir [27ms]
+2025-04-22 16:39:22.513 [info] [Model][openRepository] Opened repository: /home/ubuntu/fluxo-de-caixa
+2025-04-22 16:39:22.513 [info] > git config --get commit.template [8ms]
+2025-04-22 16:39:22.513 [info] > git rev-parse --show-toplevel [19ms]
+2025-04-22 16:39:22.513 [info] > git rev-parse --show-toplevel [22ms]
+2025-04-22 16:39:22.513 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [38ms]
+2025-04-22 16:39:22.514 [info] > git status -z -uall [72ms]
+2025-04-22 16:39:22.514 [info] > git rev-parse --show-toplevel [31ms]
+2025-04-22 16:39:22.514 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [76ms]
+2025-04-22 16:39:22.514 [info] > git status -z -uall [253ms] (cancelled)
+2025-04-22 16:39:22.514 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [23ms]
+2025-04-22 16:39:22.699 [info] > git config --get commit.template [203ms]
+2025-04-22 16:39:22.699 [info] > git rev-parse --show-toplevel [208ms]
+2025-04-22 16:39:24.476 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1781ms]
+2025-04-22 16:39:24.487 [info] > git config --get --local branch.main.vscode-merge-base [1976ms]
+2025-04-22 16:39:24.487 [warning] [Git][config] git config failed: Failed to execute git
+2025-04-22 16:39:24.530 [info] > git check-ignore -v -z --stdin [22ms]
+2025-04-22 16:39:24.531 [info] > git reflog main --grep-reflog=branch: Created from *. [39ms]
+2025-04-22 16:39:24.538 [info] > git config --get --local branch.main.vscode-merge-base [52ms]
+2025-04-22 16:39:24.539 [warning] [Git][config] git config failed: Failed to execute git
+2025-04-22 16:39:24.545 [info] > git rev-parse --show-toplevel [72ms]
+2025-04-22 16:39:24.545 [info] > git config --get commit.template [77ms]
+2025-04-22 16:39:24.545 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [81ms]
+2025-04-22 16:39:24.571 [info] > git status -z -uall [19ms]
+2025-04-22 16:39:24.572 [info] > git reflog main --grep-reflog=branch: Created from *. [28ms]
+2025-04-22 16:39:24.579 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [41ms]
+2025-04-22 16:39:24.579 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-04-22 16:39:24.579 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-04-22 16:39:24.585 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [7ms]
+2025-04-22 16:39:24.585 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-04-22 16:39:24.585 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-04-22 16:39:24.585 [info] > git rev-parse --show-toplevel [15ms]
+2025-04-22 16:39:24.586 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [27ms]
+2025-04-22 16:39:24.594 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2025-04-22 16:39:24.602 [info] > git rev-parse --git-dir --git-common-dir [9ms]
+2025-04-22 16:39:24.606 [info] [Model][openRepository] Opened repository: /home/ubuntu/.nvm
+2025-04-22 16:39:24.614 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [13ms]
+2025-04-22 16:39:24.617 [info] > git config --get commit.template [7ms]
+2025-04-22 16:39:24.618 [info] > git rev-parse --show-toplevel [4ms]
+2025-04-22 16:39:24.626 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [4ms]
+2025-04-22 16:39:24.638 [info] > git rev-parse --show-toplevel [13ms]
+2025-04-22 16:39:24.639 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-22 16:39:24.645 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-22 16:39:24.689 [info] > git status -z -uall [58ms]
+2025-04-22 16:39:24.689 [info] > git rev-parse --show-toplevel [26ms]
+2025-04-22 16:39:24.706 [info] > git rev-parse --show-toplevel [7ms]
+2025-04-22 16:39:24.715 [info] > git config --get commit.template [12ms]
+2025-04-22 16:39:24.722 [info] > git status -z -uall [125ms] (cancelled)
+2025-04-22 16:39:24.723 [info] > git rev-parse --show-toplevel [11ms]
+2025-04-22 16:39:24.724 [info] [Model][doInitialScan] Initial repository scan completed - repositories (3), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-04-22 16:39:24.833 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [114ms]
+2025-04-22 16:39:24.845 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-22 16:39:26.556 [info] > git status -z -uall [1718ms]
+2025-04-22 16:39:26.600 [info] > git check-ignore -v -z --stdin [38ms]
+2025-04-22 16:39:27.064 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-22 16:39:27.098 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-22 16:39:27.216 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [6ms]
+2025-04-22 16:39:27.999 [info] > git show --textconv :README.md [5ms]
+2025-04-22 16:39:28.001 [info] > git ls-files --stage -- README.md [3ms]
+2025-04-22 16:39:28.039 [info] > git check-ignore -v -z --stdin [6ms]
+2025-04-22 16:39:28.040 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-22 16:39:28.040 [info] > git cat-file -s 1ee75fa71e7649c60539c033eb94f7f4a4f416f5 [35ms]
+2025-04-22 16:43:09.605 [info] > git config --get commit.template [5ms]
+2025-04-22 16:43:09.610 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-04-22 16:43:09.619 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-04-22 16:43:09.876 [info] > git status -z -uall [263ms] (cancelled)
+2025-04-22 16:43:11.477 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1603ms]
+2025-04-22 16:43:11.496 [info] > git diff --name-status -z --diff-filter=ADMR 3a1044a8a07f7093674ff2394eb8a66449ba87ba...refs/remotes/origin/main [8ms]
+2025-04-22 16:43:11.665 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [6ms]
+2025-04-22 16:43:12.766 [info] > git ls-files --stage -- README.md [2ms]
+2025-04-22 16:43:12.772 [info] > git cat-file -s 1ee75fa71e7649c60539c033eb94f7f4a4f416f5 [3ms]
+2025-04-22 16:43:12.927 [info] > git show --textconv :README.md [3ms]

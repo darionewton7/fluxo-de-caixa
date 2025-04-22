@@ -1,0 +1,27 @@
+[2025-04-22T19:33:19.901Z] info  code-server 4.99.1 0a92b7630413a9739541251a47ae6d509fa0e229
+[2025-04-22T19:33:19.918Z] info  Using user-data-dir /home/ubuntu/.local/share/code-server
+[2025-04-22T19:33:19.933Z] info  Using config file /home/ubuntu/.config/code-server/config.yaml
+[2025-04-22T19:33:19.933Z] info  HTTP server listening on http://0.0.0.0:8329/
+[2025-04-22T19:33:19.933Z] info    - Authentication is enabled
+[2025-04-22T19:33:19.933Z] info      - Using password from /home/ubuntu/.config/code-server/config.yaml
+[2025-04-22T19:33:19.933Z] info    - Not serving HTTPS
+[2025-04-22T19:33:19.933Z] info  Session server listening on /home/ubuntu/.local/share/code-server/code-server-ipc.sock
+[20:29:35] 
+
+
+
+
+[20:29:35] Extension host agent started.
+[20:29:35] Started initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.local/share/code-server/extensions
+[20:29:35] Completed initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.local/share/code-server/extensions
+[20:29:41] [10.85.59.1][7e5e30da][ManagementConnection] New connection established.
+[20:29:45] [10.85.59.1][0ba54953][ExtensionHostConnection] New connection established.
+[20:29:45] [10.85.59.1][0ba54953][ExtensionHostConnection] <7431> Launched Extension Host Process.
+[20:30:09] [10.85.59.1][7e5e30da][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[20:30:09] [10.85.59.1][0ba54953][ExtensionHostConnection] <7431> Extension Host Process exited with code: 0, signal: null.
+[20:33:31] [10.85.59.1][2efe8100][ManagementConnection] New connection established.
+[20:33:33] [10.85.59.1][9b10a01c][ExtensionHostConnection] New connection established.
+[20:33:33] [10.85.59.1][9b10a01c][ExtensionHostConnection] <12253> Launched Extension Host Process.
+[20:39:16] [10.24.37.1][cead9916][ManagementConnection] New connection established.
+[20:39:19] [10.24.37.1][c5e77598][ExtensionHostConnection] New connection established.
+[20:39:19] [10.24.37.1][c5e77598][ExtensionHostConnection] <14325> Launched Extension Host Process.

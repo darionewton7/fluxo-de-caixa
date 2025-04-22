@@ -1,0 +1,70 @@
+2025-04-22 16:29:48.293 [info] [main] Log level: Info
+2025-04-22 16:29:48.293 [info] [main] Validating found git in: "git"
+2025-04-22 16:29:48.293 [info] [main] Using git "2.34.1" from "git"
+2025-04-22 16:29:48.293 [info] [Model][doInitialScan] Initial repository scan started
+2025-04-22 16:29:48.293 [info] > git rev-parse --show-toplevel [4ms]
+2025-04-22 16:29:48.293 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-22 16:29:48.295 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-22 16:29:48.295 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-22 16:29:48.300 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-22 16:29:48.300 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-22 16:29:48.305 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-22 16:29:48.305 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-22 16:29:48.312 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-22 16:29:48.312 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-22 16:29:48.320 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-22 16:29:48.320 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-22 16:29:48.329 [info] > git rev-parse --show-toplevel [5ms]
+2025-04-22 16:29:48.337 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2025-04-22 16:29:48.351 [info] [Model][openRepository] Opened repository: /home/ubuntu/.nvm
+2025-04-22 16:29:48.362 [info] > git config --get commit.template [4ms]
+2025-04-22 16:29:48.363 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-22 16:29:48.363 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-22 16:29:48.375 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-22 16:29:48.375 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-22 16:29:48.378 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [11ms]
+2025-04-22 16:29:48.391 [info] > git rev-parse --show-toplevel [12ms]
+2025-04-22 16:29:48.391 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-22 16:29:48.396 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-04-22 16:29:48.398 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-22 16:29:48.406 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2025-04-22 16:29:48.412 [info] [Model][openRepository] Opened repository: /home/ubuntu/fluxo-de-caixa
+2025-04-22 16:29:48.420 [info] > git config --get commit.template [4ms]
+2025-04-22 16:29:48.424 [info] > git rev-parse --show-toplevel [5ms]
+2025-04-22 16:29:48.424 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-22 16:29:48.429 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-04-22 16:29:48.436 [info] > git rev-parse --show-toplevel [8ms]
+2025-04-22 16:29:48.436 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-22 16:29:48.441 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-04-22 16:29:48.442 [info] > git status -z -uall [10ms]
+2025-04-22 16:29:48.442 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-04-22 16:29:48.456 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2025-04-22 16:29:48.460 [info] > git config --get commit.template [5ms]
+2025-04-22 16:29:48.494 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [31ms]
+2025-04-22 16:29:48.509 [info] > git config --get --local branch.main.vscode-merge-base [49ms]
+2025-04-22 16:29:48.509 [warning] [Git][config] git config failed: Failed to execute git
+2025-04-22 16:29:48.521 [info] > git status -z -uall [137ms]
+2025-04-22 16:29:48.521 [info] > git status -z -uall [17ms]
+2025-04-22 16:29:48.521 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [13ms]
+2025-04-22 16:29:48.574 [info] > git reflog main --grep-reflog=branch: Created from *. [55ms]
+2025-04-22 16:29:48.581 [info] > git config --get commit.template [8ms]
+2025-04-22 16:29:48.581 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms]
+2025-04-22 16:29:48.592 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [14ms]
+2025-04-22 16:29:48.592 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-04-22 16:29:48.592 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-04-22 16:29:48.605 [info] > git config --get --local branch.main.vscode-merge-base [13ms]
+2025-04-22 16:29:48.605 [warning] [Git][config] git config failed: Failed to execute git
+2025-04-22 16:29:48.609 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [6ms]
+2025-04-22 16:29:48.623 [info] > git reflog main --grep-reflog=branch: Created from *. [15ms]
+2025-04-22 16:29:48.636 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [15ms]
+2025-04-22 16:29:48.678 [info] > git status -z -uall [64ms]
+2025-04-22 16:29:48.684 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [49ms]
+2025-04-22 16:29:48.684 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-04-22 16:29:48.684 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-04-22 16:29:49.089 [info] > git check-ignore -v -z --stdin [5ms]
+2025-04-22 16:29:49.091 [info] > git check-ignore -v -z --stdin [4ms]
+2025-04-22 16:29:49.189 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-22 16:29:57.251 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-22 16:29:59.369 [info] > git show --textconv :README.md [6ms]
+2025-04-22 16:29:59.371 [info] > git ls-files --stage -- README.md [3ms]
+2025-04-22 16:29:59.377 [info] > git cat-file -s 1ee75fa71e7649c60539c033eb94f7f4a4f416f5 [2ms]

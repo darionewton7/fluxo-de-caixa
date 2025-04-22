@@ -1,0 +1,19 @@
+2025-04-22 20:29:35.651 [info] 
+
+
+
+
+2025-04-22 20:29:35.672 [info] Extension host agent started.
+2025-04-22 20:29:35.754 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.local/share/code-server/extensions
+2025-04-22 20:29:35.777 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.local/share/code-server/extensions
+2025-04-22 20:29:41.377 [info] [10.85.59.1][7e5e30da][ManagementConnection] New connection established.
+2025-04-22 20:29:45.077 [info] [10.85.59.1][0ba54953][ExtensionHostConnection] New connection established.
+2025-04-22 20:29:45.836 [info] [10.85.59.1][0ba54953][ExtensionHostConnection] <7431> Launched Extension Host Process.
+2025-04-22 20:30:09.846 [info] [10.85.59.1][7e5e30da][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-22 20:30:09.912 [info] [10.85.59.1][0ba54953][ExtensionHostConnection] <7431> Extension Host Process exited with code: 0, signal: null.
+2025-04-22 20:33:31.814 [info] [10.85.59.1][2efe8100][ManagementConnection] New connection established.
+2025-04-22 20:33:33.743 [info] [10.85.59.1][9b10a01c][ExtensionHostConnection] New connection established.
+2025-04-22 20:33:33.750 [info] [10.85.59.1][9b10a01c][ExtensionHostConnection] <12253> Launched Extension Host Process.
+2025-04-22 20:39:16.563 [info] [10.24.37.1][cead9916][ManagementConnection] New connection established.
+2025-04-22 20:39:19.489 [info] [10.24.37.1][c5e77598][ExtensionHostConnection] New connection established.
+2025-04-22 20:39:19.497 [info] [10.24.37.1][c5e77598][ExtensionHostConnection] <14325> Launched Extension Host Process.

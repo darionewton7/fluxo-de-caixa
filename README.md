@@ -82,7 +82,7 @@ fluxo-de-caixa/
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/darionewton7/fluxo-de-caixa.git
+git clone https://github.com/darionewton7/Teste-OPAH.git
 cd fluxo-de-caixa
 ```
 
